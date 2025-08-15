@@ -1,0 +1,23 @@
+<svg width="138" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 138 20" role="img" aria-label="Low Key logo">
+  <style>
+    @font-face {
+      font-family: "BebasNeueCyr";
+      src: url("BebasNeueCyr-Regular.ttf") format("truetype");
+      font-weight: normal;
+      font-style: normal;
+    }
+    /* For bold effect browsers will use font-weight; if the font has no bold face, stroke is added as fallback */
+    .logo-text {
+      font-family: "BebasNeueCyr", "Bebas Neue", Bebas, sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      fill: #d09479ff;
+      /* fallback thicker look if bold face is not available */
+      paint-order: stroke fill;
+      stroke: #d77979ff;
+      stroke-width: 0.8px;
+    }
+  </style>
+
+  <text x="30" y="18" class="logo-text">SHORELINE</text>
+</svg>
